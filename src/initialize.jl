@@ -57,7 +57,7 @@ const Γ = FloatType(1.0)
 const T = FloatType(1.0)
 
 const L = parsed_args["size"]
-const m² = FloatType(parsed_args["mass"])
+const m² = FloatType(-2.28587 + parsed_args["mass"])
 const Δt = FloatType(parsed_args["dt"]/Γ)
 
 const Rate= FloatType(sqrt(2.0*Δt*Γ))
